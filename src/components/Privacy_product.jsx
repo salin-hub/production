@@ -6,7 +6,7 @@ const Privacy_product = () => {
                 {data.policy_product.map((item, index) => {
                     return (
                         <div className="item_problem" key={index}>
-                            <div className="items">
+                            <div className="item_privacy">
                                 <img src={item.image} alt={`Problem image ${index}`} />
                             </div>
                             <div className="textPro" style={{padding:"20px"}}>

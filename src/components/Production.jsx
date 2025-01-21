@@ -3,7 +3,11 @@ import data from '../Data/DataProduct';
 import Footer from './Footer';
 import SubmitForm from './FormSub';
 import Privacy_product from './Privacy_product';
-import video from '../assets/images/v1.mp4';
+import Carousel from 'react-bootstrap/Carousel';
+import p3 from '../assets/images/p3.jpg';
+import p2 from '../assets/images/p2.jpg';
+import p1 from '../assets/images/p1.jpg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Production = () => {
     const submitFormRef = useRef(null);
@@ -26,9 +30,25 @@ const Production = () => {
 
     return (
         <div className='block'>
-            <div className="videos">
-                <video src={video} autoPlay loop muted className="responsive-video" />
-            </div>
+            <Carousel >
+                <Carousel.Item>
+                    <div className="image_controller">
+                        <img src={p3} alt="" />
+                    </div>
+                    
+                </Carousel.Item>
+                <Carousel.Item>
+                <div className="image_controller">
+                        <img src={p2} alt="" />
+                    </div>
+                    
+                </Carousel.Item>
+                <Carousel.Item>
+                <div className="image_controller">
+                        <img src={p1} alt="" />
+                    </div>
+                </Carousel.Item>
+            </Carousel>
             <div className="controller">
                 <h1 className='text_q'>តើលោកអ្នកកំពុងជួបបញ្ហាទាំងអស់នេះមែនទេ?</h1>
                 <div className="problem_product">

@@ -6,6 +6,7 @@
     font-size: 30px;
     font-family: "Battambang", serif;
     text-align: center;
+    padding: 20px;
     color: var(--primary-color);
 }
 
@@ -20,6 +21,15 @@ body {
     flex-direction: column;
     align-items: center;
 }
+/* .image_controller{
+    width: 100%;
+    height: 600px;
+}
+.image_controller img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
 
 .problem_product, .card_item {
     width: 1000px;
@@ -27,11 +37,9 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: var(--background-color);
     border-radius: 10px;
-    box-shadow: 0 0 5px var(--primary-color);
     padding: 20px;
-    gap: 10px;
+    gap: 20px;
 }
 
 .item_problem {
@@ -92,11 +100,13 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    border: 2px solid var(--primary-color);
+    box-shadow: 0 0 5px var(--text-color);
     padding: 20px;
 }
 
 .item_card h1 {
+    height: 100%;
+    width: 80%;
     margin: 20px;
     display: flex;
     align-items: center;
@@ -105,7 +115,7 @@ body {
 }
 
 .item_image {
-    width: 600px;
+    width: 300px;
 }
 
 .item_image img {
@@ -122,7 +132,18 @@ body {
     background-color: red;
     padding: 10px;
 }
-
+.item_privacy{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    padding: 10px;
+}
+.item_privacy img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .items img {
     width: 100%;
     height: 100%;
@@ -249,6 +270,7 @@ body {
     font-size: 30px;
     font-family: "Battambang", serif;
     border-bottom: 2px solid red;
+    
 }
 .phone{
     display: flex;
@@ -275,12 +297,21 @@ body {
     height: 100%;
     object-fit: cover;
 }
+.image_controller{
+    width: 100%;
+    height: 600px;
+}
+.image_controller img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 /* Responsive Styles */
 @media (max-width: 1024px) {
     .problem_product, .card_item, .line_content {
         width: 90%;
+       
     }
-
     .item_problem {
         width: 250px;
         height: 250px;
@@ -289,6 +320,25 @@ body {
     .item {
         width: 240px;
         height: 200px;
+    }
+    .item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .item_privacy{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: red;
+        padding: 10px;
+        margin-top: 30px;
+    }
+    .item_privacy img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .item_image {
@@ -301,18 +351,39 @@ body {
     .control_text p{
         font-family: "Battambang", serif;
         font-size: 20px;
-        color: white;
+        color: #ffffff;
         margin: 0;
     }
     .booking{
-        padding: 10px;
-        
+        position: fixed;
+        width: 100%;
+        height: 600px;
+        background-color: red;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+       
+    
+    
+    }
+    .submit-form-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
 @media (max-width: 768px) {
+    
+    .submit-form-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .text_q, .textPro h1, .text_pri {
         font-size: 20px;
+       
     }
 
     .booking {
@@ -325,13 +396,17 @@ body {
     }
 
     .item_problem {
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
     }
-
+    
+    .textPro h1{
+        font-size: 18px;
+    }
     .item {
-        width: 190px;
-        height: 160px;
+        width: 178px;
+        height: 140px;
+        padding: 5px;
     }
     .items{
         width: 50px;
@@ -346,39 +421,46 @@ body {
     height: 40px;
    }
    
+   
 }
 
 @media (max-width: 480px) {
+    
+    .submit-form-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .text_q, .textPro h1, .text_pri {
         font-size: 16px;
     }
 
     .booking {
-        width: 100px;
-        height: 35px;
+        width: 100%;
+        height: 50px;
+
     }
 
     .booking h1 {
         font-size: 14px;
     }
+    .control_text p {
+        font-size: 7px;
+    }
 
     .item_problem {
-        width: 150px;
-        height: 150px;
+        width: 145px;
+        height: 130px;
     }
 
     .item {
-        width: 100px;
-        height: 90px;
-    }
-    /* .item img{
         width: 140px;
-        height: 120px;
-    } */
+        height: 100px;
+    }
+
     .items{
         width: 50px;
         height: 50px;
-        background-color:red;
     }
     .items img{
         width: 100%;
@@ -404,7 +486,7 @@ body {
     }
     .control_text p{
         font-family: "Battambang", serif;
-        font-size: 15px;
+        font-size: 13px;
         color: white;
         margin: 0;
     }
@@ -439,6 +521,12 @@ body {
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+    .controller_contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
     }
     
 }
