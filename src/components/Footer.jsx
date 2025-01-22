@@ -81,7 +81,7 @@ const Footer = () => {
             <Stack direction="row" justifyContent="center" spacing={2} marginBottom="20px">
                 <IconButton
                     component="a"
-                    href="https://www.facebook.com"
+                    href="https://www.facebook.com/share/1951hnQYC1/?mibextid=wwXIfr"
                     target="_blank"
                     rel="noopener noreferrer"
                     sx={{ color: '#3b5998' }}

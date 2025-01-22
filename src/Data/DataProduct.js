@@ -1,8 +1,8 @@
 
-import pro1 from "../assets/images/pro1.jpg";
-import pro2 from "../assets/images/pro2.png";
-import pro3 from "../assets/images/pro3.png";
-import pro4 from "../assets/images/pro4.jpg";
+import pro1 from "../assets/images/ជំងឺរលាកក្រពះ.jpg";
+import pro2 from "../assets/images/មេរោគក្រពះ.jpg";
+import pro3 from "../assets/images/ខ្សោយក្រពះ.jpg";
+import pro4 from "../assets/images/អាស៊ីតក្រពះ.jpg";
 import pro5 from "../assets/images/pro5.jpg";
 import pro6 from "../assets/images/pro6.png";
 // _________________
@@ -31,22 +31,22 @@ const data = {
       {
         id: 1,
         image:pro1,
-        description: "ពិបាកក្នុងការរំលាយអាហារ",
+        description: "បញ្ហារលាកក្រពះ",
       },
       {
         id: 2,
         image:pro2,
-        description: "ខ្សោយការចង់ចាំ",
+        description: "មេរោគក្រពះ",
       },
       {
         id: 3,
         image:pro3,
-        description: "រាងកាយចុះខ្សោយ",
+        description: "ពិបាកក្នុងការរំលាយអាហារ",
       },
       {
         id: 4,
         image:pro4,
-        description: "ខ្វះវិតាមីន",
+        description: "អាស៊ីតក្នុងក្រពះ",
       },
       {
         id: 5,
@@ -56,7 +56,7 @@ const data = {
       {
         id: 6,
         image:pro6,
-        description: "បញ្ហាក្រពះ",
+        description: "បញ្ហាក្រពះផ្សេងៗ",
       },
     ],
     Product: [

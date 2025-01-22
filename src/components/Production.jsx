@@ -4,7 +4,7 @@ import Footer from './Footer';
 import SubmitForm from './FormSub';
 import Privacy_product from './Privacy_product';
 import Carousel from 'react-bootstrap/Carousel';
-import p3 from '../assets/images/p3.jpg';
+import p3 from '../assets/images/NoNI.jpg';
 import p2 from '../assets/images/p2.jpg';
 import p1 from '../assets/images/p1.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import 'slick-carousel/slick/slick.css'; 
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
-import image1 from '../assets/Images/p1.jpg'
+import image1 from '../assets/Images/NoNI.jpg'
 import image2 from '../assets/Images/p2.jpg'
 import image3 from '../assets/Images/p3.jpg'
 import image4 from '../assets/Images/p3.jpg'
