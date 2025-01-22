@@ -92,7 +92,7 @@ const Production = () => {
             </div>
             <div className='booking'>
                 <div className="control_text">
-                    <h1>500% សងប្រាក់វិញ</h1>
+                    <h1>100% សងប្រាក់វិញ</h1>
                     <p>ប្រសិនបើវាមិនដូចនឹងការផ្សាយពាណិជ្ជកម្ម</p>
                 </div>
                 <div className='booking_click' offset={50} onClick={scrollToSubmitForm}>
