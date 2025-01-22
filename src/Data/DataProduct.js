@@ -106,7 +106,7 @@ const data = {
       {
         id: 2,
         image:dolar,
-        policy: "ធានាសងលុយវិញ 500%",
+        policy: "ធានាសងលុយវិញ 100%",
       },
       {
         id: 3,
